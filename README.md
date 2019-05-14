@@ -4,8 +4,11 @@ This project contains instructions to setup Visual Studio Code and linters for P
 ## Python linting tools
 It's good to get a bit familiar with python style guides (pep8 naming) and other linting concepts.
 https://www.python.org/dev/peps/pep-0008/
+
 https://pylint.readthedocs.io/en/latest/
+
 http://flake8.pycqa.org/en/latest/
+
 https://mypy.readthedocs.io/en/stable/
 
 Feel free to explore the below link if you want to deep dive into using linters along with Visual Studio Code.
