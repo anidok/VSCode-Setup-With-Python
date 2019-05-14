@@ -6,7 +6,7 @@ pylint src/fixed_linter_errors || EXIT_CODE=1
 
 mypy src/fixed_linter_errors || EXIT_CODE=1
 
-pycodestyle . || EXIT_CODE=1
+pycodestyle src/fixed_linter_errors || EXIT_CODE=1
 
 python -m flake8 src/fixed_linter_errors || EXIT_CODE=1
 

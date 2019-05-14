@@ -1,4 +1,4 @@
-
+# pylint: disable=too-many-arguments
 class Movie:
     def __init__(self, name, rating, director, budget, description):
         self.name = name
@@ -10,8 +10,7 @@ class Movie:
     def good_movie(self):
         if self.rating >= 4:
             return"Good Movie"
-        else:
-            return "Average Movie"
+        return "Average Movie"
 
 
 toy_story = Movie("ToyStory2", 4, "John Lasseter , Lee Unkrich , Ash Brannon",
