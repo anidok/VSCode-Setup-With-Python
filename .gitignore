@@ -12,6 +12,13 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+#mypy cache files
+.mypy_cache
+
+#virtualenv
+.venv
+venv
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
