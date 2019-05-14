@@ -1,0 +1,6 @@
+pylint==2.3.0
+git-pylint-commit-hook==2.5.1
+pycodestyle==2.5.0
+mypy==0.670
+flake8==3.7.6
+pep8-naming==0.5.0
